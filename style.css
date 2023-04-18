@@ -83,14 +83,29 @@ button {
   font-family: 'Zilla Slab', serif;
   border-radius: 0;
 }
-
-
-
-
-
  
 
 
+.bts:hover {
+
+background-color:var(--color-lighter);
+color: black;
+}
+
+.bts2:hover:hover {
+
+  background-color:var(--color-light);
+  color: black;
+  }
+  
+
+.light_button:hover {
+  background-color: var(--color-darker);
+  color: var(--color-lighter);  
+  border: 1px solid var(--color-lighter);
+  
+}
+ 
 
 
 input[type=text] {
@@ -193,10 +208,12 @@ header {
 
 .card {
   border: 1px solid var(--color-darker);
-  box-shadow: 3px 3px 5px var(--color-lighter);
+  border-radius: 2px;
+  box-shadow: 5px 5px 7px var(--color-darker);
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
+
   
 }
 
@@ -212,7 +229,7 @@ header {
 }
 .card_mail a {
   color: var(--color-dark);
-  text-underline-offset: 0.2rem;
+  text-underline-offset: 0.3rem;
 }
 
 .card_mail a:hover {
