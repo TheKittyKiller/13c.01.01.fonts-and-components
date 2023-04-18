@@ -73,14 +73,15 @@ button {
 
 .light_button {
   background-color: var(--color-lighter);
-  color: var(--color-darker);
+  color: var(--color-darker);  
   
 }
 
 
 .card_button_negative, .card_button_positive { 
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Zilla Slab', serif;
+  border-radius: 0;
 }
 
 
